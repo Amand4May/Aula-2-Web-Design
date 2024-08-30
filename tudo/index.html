@@ -7,7 +7,78 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action=“https://www.w3schools.com/action_page.php”>
+
+        <label for="data">Data:</label><br>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="user">Dados de acesso:</label><br><br>
+        <label for="user">Usuário:</label><br>
+        <input type="text" id="user" name="user"><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="text" id="senha" name="senha"><br><br>
+
+        <label for="user">Dados Pessoais:</label><br><br>
+        <label for="user">Nome:</label><br>
+        <input type="text" id="user" name="user"><br>
+
+        <label for="senha">Endereço:</label><br>
+        <input type="text" id="senha" name="senha"><br>
+
+        <label for="user">Número:</label><br>
+        <input type="text" id="user" name="user"><br>
+
+        <label for="senha">Complemento:</label><br>
+        <input type="password" id="senha" name="senha"><br>
+
+        <label for="Cidade">Cidade:</label><br>
+        <input list="Cidade" name="Cidade">
+        <datalist id="Cidade">
+            <option value="Sorocaba"></option>
+            <option value="Votorantim"></option>
+            <option value="Itu"></option>
+            <option value="Araçoiaba"></option>
+            <option value="Porto Feliz"></option>
+        </datalist><br>
+
+        <label for="senha">Estado:</label><br>
+        <select id="Estado">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Rio de Janeiro">Rio de Janeiro</option>
+            <option value="Paraná">Paraná</option>
+        </select><br>
+        
+        <label for="senha">CEP:</label><br>
+        <input type="text" id="senha" name="senha"><br><br>
+
+        <label for="gender">Genêro:</label><br><br>
+        <input type="radio" id="html" name="fav_language" value="Mulher" checked>
+        <label for="html">Mulher</label><br>
+        <input type="radio" id="css" name="fav_language" value="Homem">
+        <label for="css">Homem</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="NoInfo">
+        <label for="javascript">Prefiro não informar</label>
+
+        <label for="Curso">Curso:</label><br><br>
+
+        <input type="checkbox" id="html" name="" value="Mulher" checked>
+        <label for="html">Engenharia da computação</label><br>
+        <input type="checkbox" id="css" name="" value="Homem">
+        <label for="css">ADS</label><br>
+        <input type="checkbox" id="javascript" name="" value="NoInfo">
+        <label for="javascript">Engenharia de produção</label>
+
+        <label for="Model">Modelo:</label><br><br>
+        <input type="radio" id="html" name="Model" value="EAD" checked>
+        <label for="html">EAD</label><br>
+        <input type="radio" id="css" name="Model" value="Presencial">
+        <label for="css">Presencial</label><br>
+        <input type="radio" id="javascript" name="Model" value="Semi">
+        <label for="javascript">Semi Presencial</label>
+
+    </form>       
+
     <script src="./main.js"></script>
 </body>
 </html>

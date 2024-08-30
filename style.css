@@ -24,6 +24,7 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     cursor: pointer;
+    border: solid rgb(39, 39, 39) 2px;
 }
 
 .formulario{

@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>FormsCadastro</title>
 </head>
 <body>
+    <div class="formulario">
     <form action="https://www.w3schools.com/action_page.php">
         <label for="data">Data:</label><br>
         <input type="date" id="data" name="data"><br><br>
@@ -48,10 +52,12 @@
             <option value="Paraná">Paraná</option>
         </select><br>
 
+    </div>
+    <div class="formulario_2">
         <label for="CEP">CEP:</label><br>
         <input type="text" id="CEP" name="CEP"><br><br>
 
-        <label for="gender">Genêro:</label><br>
+        <label for="gender">Gênero:</label><br>
         <input type="radio" id="gender" name="gender" value="Mulher" checked>
         <label for="gender">Mulher</label><br>
         <input type="radio" id="gender" name="gender" value="Homem">
@@ -67,16 +73,17 @@
         <input type="checkbox" id="Curso" name="Curso" value="Eng de Produção">
         <label for="Curso">Engenharia de produção</label><br><br>
 
-        <label for="Model">Modelo:</label><br>
-        <input type="radio" id="Model" name="Model" value="EAD" checked>
-        <label for="Model">EAD</label><br>
-        <input type="radio" id="Model" name="Model" value="Presencial">
-        <label for="Model">Presencial</label><br>
-        <input type="radio" id="Model" name="Model" value="Semi">
-        <label for="Model">Semi Presencial</label><br>
+        <label for="Modelo">Modelo:</label><br>
+        <input type="radio" id="Modelo" name="Modelo" value="EAD" checked>
+        <label for="Modelo">EAD</label><br>
+        <input type="radio" id="Modelo" name="Modelo" value="Presencial">
+        <label for="Modelo">Presencial</label><br>
+        <input type="radio" id="Modelo" name="Modelo" value="Semi presencial">
+        <label for="Modelo">Semi Presencial</label><br>
 
-        <input type="submit" value="Submit">
+        <input class="botao" type="submit" value="Submit">
     </form>
+    </div>
 </body>
 </html>
 
